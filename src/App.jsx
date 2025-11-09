@@ -12,7 +12,6 @@ import Juegos from './pages/juegos.jsx'
 import About from './pages/about.jsx'
 import Contacto from './pages/contacto.jsx'
 import Test from './pages/test.jsx'
-import Pokemon from './pages/Pokemon.jsx'
 import JuegosSencillo from './pages/JuegosSencillo.jsx'
 
 function App() {
@@ -25,9 +24,7 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/contacto" element={<Contacto />} />
                 <Route path="/test" element={<Test />} />
-                <Route path="/pokemon" element={<Pokemon />} />
                 <Route path="/juegossencillo" element={<JuegosSencillo />} />
-      
             </Routes>
             <Footer />
         </div>

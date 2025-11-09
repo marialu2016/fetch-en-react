@@ -33,9 +33,6 @@ function Navegacion() {
                         <li className="nav-item">
                             <Link to="/test" className="nav-link text-white" onClick={() => {setCount(0)}}>Test</Link>
                         </li>
-                         <li className="nav-item">
-                            <Link to="/pokemon" className="nav-link text-white">Pokemon</Link>
-                        </li>
                         <li className="nav-item">
                             <Link to="/juegossencillo" className="nav-link text-white">Juegos Sencillo</Link>
                         </li>
